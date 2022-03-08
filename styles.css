@@ -1,0 +1,74 @@
+body {
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    height: 270px;
+    width: 800px;
+    margin: 0px;
+    padding: 30px;
+    color: black;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.device:hover {
+    background-color: rgb(240, 234, 234);
+}
+
+.device {
+    /* padding; 20px; */
+    /* width: fit-content; */
+    width: 27rem;
+}
+
+.image {
+    height: 90px;
+}
+
+#name {
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+#price {
+    font-size: 25px;
+    font-weight: 600;
+    color: dodgerblue
+}
+
+#top {
+    font-size: 15px;
+    vertical-align: text-top;
+}
+
+#bottom {
+    vertical-align: bottom;
+    font-size: 15px;
+}
+
+#top1 {
+    font-size: 15px;
+    vertical-align: text-top;
+}
+
+#bottom1 {
+    vertical-align: bottom;
+    font-size: 15px;
+}
+
+#description {
+    font-size: 16px;
+    padding: 0px, 0px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
